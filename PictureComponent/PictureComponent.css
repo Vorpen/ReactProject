@@ -1,0 +1,209 @@
+    .PictureSection{
+      text-align: center;
+      /* display: grid;
+      grid-template-columns: 50% 50%;
+      -ms-grid-template-columns: 50% 50%;
+      margin-top: 100px; */
+      position: relative;
+      width: 100%;
+      margin: 100px auto;
+    }
+
+    .PictureSection .experience-text{
+      bottom: 60px;
+      color: #4A4A4A;
+      text-transform: uppercase;
+      font-size: 60px;
+      font-weight: 500;
+      white-space: nowrap;
+      padding-bottom: 20px;
+    }
+
+    .PictureSection .text{
+      font-size: 20px;
+      grid-column: 1;
+      -ms-grid-column: 1;
+      position: relative;
+    }
+
+    .PictureSection .text .title{
+      font-size: 32px;
+      padding-bottom: 32px;
+    }
+
+    .PictureSection .text .title .title-big{
+      font-weight: 500;
+    }
+
+    .PictureSection .text .text-inner{
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      padding: 32px;
+      font-weight: 300;
+    }
+
+    .PictureSection .text .text-inner .subheader{
+      text-align: center;
+      margin-top: 24px;
+    }
+
+    .PictureSection .image{
+      grid-column: 2;
+      -ms-grid-column: 2;
+    }
+
+    .PictureSection .image img{
+      width: 100%;
+    }
+
+
+    @media only screen and (max-width: 1600px) {
+      .PictureSection{
+        width: 90%
+      }
+    }
+
+  @media only screen and (max-width: 1300px) {
+
+    .PictureSection .text .title{
+      font-size: 26px;
+      padding-bottom: 24px;
+    }
+    .PictureSection .text{
+      font-size: 16px;
+    }
+    .PictureSection .text .text-inner .subheader{
+      margin-top: 16px;
+    }
+
+    .PictureSection .experience-text{
+      font-size: 50px;
+      bottom: 55px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+
+    .PictureSection .experience-text{
+      font-size: 50px;
+      padding-bottom: 0;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+
+    .PictureSection .experience-text{
+      font-size: 44px;
+      bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .PictureSection {
+      margin: 80px auto;
+    }
+    .PictureSection .text .text-inner{
+      padding: 20px;
+    }
+    .PictureSection .text .title{
+      font-size: 24px;
+      padding-bottom: 20px;
+    }
+    .PictureSection .text .text-inner .subheader{
+      margin-top: 12px;
+    }
+    .PictureSection .experience-text{
+      font-size: 40px;
+      bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .PictureSection .experience-text{
+      font-size: 36px;
+      bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .PictureSection .text .text-inner{
+      padding: 16px;
+    }
+    .PictureSection .text .title{
+      font-size: 22px;
+      padding-bottom: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .PictureSection .text{
+      font-size: 14px;
+    }
+  }
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+  .PictureSection{
+    grid-template-columns: 100%;
+    -ms-grid-template-columns: 100%;
+    margin: 50px 0;
+    width: 100%;
+    display: none;
+  }
+
+  .PictureSection .text{
+    grid-column: 1;
+    -ms-grid-column: 1;
+    grid-row: 2;
+    -ms-grid-row: 2;
+  }
+
+  .PictureSection .image{
+    grid-column: 1;
+    -ms-grid-column: 1;
+    grid-row: 1;
+    -ms-grid-row: 1;
+    text-align: center;
+  }
+
+  .PictureSection .img{
+    width: calc(100% - 32px);
+  }
+  .PictureSection .text .text-inner{
+    position: unset;
+    transform: none;
+    padding: 36px 24px;
+  }
+  .PictureSection .text .text-inner .subheader{
+    margin-top: 20px;
+  }
+
+  .PictureSection .text .title{
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .PictureSection .text{
+    font-size: 16px;
+  }
+  .PictureSection .experience-text{
+    font-size: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .PictureSection .experience-text{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .PictureSection .experience-text{
+    font-size: 16px;
+  }
+}

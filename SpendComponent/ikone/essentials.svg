@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="46" viewBox="0 0 54 46">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="54" height="46" transform="translate(653.775 346)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-653.775 -346)" clip-path="url(#clip-path)">
+    <path id="towelSVG" d="M45.607,8.194H42.8V7.756A5.156,5.156,0,0,0,37.753,2.5H12.259A5.156,5.156,0,0,0,7.216,7.756v.438H2.87C1.913,8.2.957,8.169,0,8.169v3.014H7.216V30.339h7.216V48.5H42.8V11.182h6.185V8.193C47.856,8.21,46.732,8.228,45.607,8.194ZM14.432,27.349H10.086V11.182h4.346Zm0-19.156H10.086V7.756a2.175,2.175,0,1,1,4.347,0ZM39.927,45.516H17.3V41.067H39.927Zm0-7.438H17.3V7.756a5.406,5.406,0,0,0-.494-2.263H37.753a2.222,2.222,0,0,1,2.174,2.263Z" transform="translate(656.397 343.495)"/>
+  </g>
+</svg>

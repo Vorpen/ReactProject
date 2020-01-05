@@ -1,0 +1,89 @@
+.user-comments-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  width: calc(100% - 160px);
+  margin: 100px auto;
+}
+
+.user-comments-section .chevron-icon.right{
+  transform: rotate(-90deg);
+}
+
+.user-comments-section .chevron-icon.left{
+  transform: rotate(90deg);
+}
+
+.user-comments-section .mobile{
+  display: none;
+}
+
+.user-comments-section .title {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  font-size: 26px;
+}
+
+.user-comments-section .user-image-wrapper {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.user-comments-section .user-image {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #337ab7;
+  font-size: 18px;
+}
+
+.user-comments-section .name {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.user-comments-section .comment {
+  margin-top: 10px;
+}
+
+.user-comments-section .joinusbutton {
+  display: block;
+  margin: 0 auto;
+}
+
+.user-comments-section .joinusbutton p{
+  color: #fff;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  width: 100%;
+}
+
+@media only screen and (max-width:  900px){
+  .user-comments-section .title {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width:  770px){
+  .user-comments-section{
+    margin-top: 50px;
+  }
+  .user-comments-section .mobile{
+    display: block;
+  }
+}
+
+@media only screen and (max-width:  550px){
+  .user-comments-section{
+    width: calc(100% - 110px);
+  }
+}
+
+@media only screen and (max-width:  450px){
+  .user-comments-section{
+    width: calc(100% - 90px);
+  }
+}

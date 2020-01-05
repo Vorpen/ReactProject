@@ -1,0 +1,239 @@
+
+    #extraSpace.container {
+      width: 100%;
+
+    }
+
+
+
+  .host{
+
+
+    margin-top:30px;
+    background-color: #337ab7;
+    background-repeat:no-repeat;
+    border-radius:8px;
+    height:50px;
+    padding:6px;
+    font-weight: 500;
+    width: 200px;
+    text-transform: uppercase;
+
+  }
+
+  .host:hover{
+    box-shadow: 0 0 10px #337AB7;
+  }
+
+
+
+
+ .buttonText{
+
+  color:White;
+  font-size:18px;
+
+  font-family:'helvetica';
+
+  src: url('../../fonts/helvetica.otf') format("opentype");
+ }
+
+  #extraSpace .row {
+    height: 800px;
+    position: relative;
+  }
+
+  #extraSpace .row .ExtraPhoto{
+    height: 800px;
+  }
+
+  #extraSpace.container {
+    margin-bottom: 100px;
+  }
+
+  #extraSpace #sideText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+  }
+
+  button{
+
+    background: none;
+
+  }
+
+  h3.three{
+    font-size:26px;
+    font-family:'helvetica';
+
+    src: url('../../fonts/helvetica.otf') format("opentype");
+    text-align: center;
+  }
+
+  #extraSpace .three-title{
+    font-size: 26px;
+  }
+
+  #extraSpace .three-subtitle{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0 30px 0;
+  }
+
+  #extraSpace .three .third{
+    margin-bottom: 50px;
+  }
+
+  #extraSpace .three .third{
+    font-weight: 100;
+  }
+
+  p.bedding{
+
+    font-family:'helvetica';
+    src: url('../../fonts/helvetica.otf') format("opentype");
+    font-size:18px;
+  }
+
+  .ExtraPhoto-container{
+    position: relative;
+  }
+
+  .ExtraPhoto-text{
+    position: absolute;
+    top: 500px;
+    left: 0;
+    color: white;
+    z-index: 1000;
+    text-transform: uppercase;
+    font-size: 50px;
+    max-width: 200px;
+    padding: 50px;
+    font-weight: 500;
+  }
+
+  img.ExtraPhoto{
+
+      position: absolute;
+      left: 0;
+      padding-right: 10px;
+
+  }
+
+  #sideText{
+
+    padding-left:60px;
+  }
+
+  p.help{
+    text-align:left;
+    font-size:18px;
+  }
+
+
+  @media only screen and (max-width:  1600px){
+    #extraSpace.container {
+      width: 90%;
+    }
+
+    #extraSpace .row {
+      height: 600px;
+    }
+
+    #extraSpace .row .ExtraPhoto{
+      height: 600px;
+    }
+    .ExtraPhoto-text {
+      top: 300px;
+      left: 0px;
+    }
+  }
+
+  @media only screen and (max-width:  1000px){
+    #extraSpace .row {
+      height: 500px;
+    }
+
+    #extraSpace #sideText{
+      padding-left: 20px;
+    }
+
+    #extraSpace .row .ExtraPhoto{
+      height: 500px;
+    }
+    .ExtraPhoto-text {
+      font-size: 45px;
+      top: 230px;
+      padding-left: 40px;
+    }
+  }
+
+  @media only screen and (max-width:  770px){
+
+    #extraSpace.container {
+      margin-bottom: 60px;
+
+    }
+    #extraSpace {
+      padding-right: 0;
+    }
+
+    #extraSpace .row {
+      height: unset;
+      position: initial;
+      text-align: center;
+    }
+
+    #extraSpace .row .ExtraPhoto{
+      position: initial;
+      width: 100%;
+      height: unset;
+    }
+
+    #extraSpace #sideText{
+      position: initial;
+      transform: none;
+      padding-right: 20px;
+      padding-top: 30px;
+    }
+
+    p.help{
+      text-align: center;
+    }
+
+    .ExtraPhoto-container {
+      height: 400px;
+      overflow: hidden;
+    }
+    #extraSpace .ExtraPhoto-container .ExtraPhoto{
+      width: 100%;
+      height: unset;
+      bottom: -100px;
+      position: absolute;
+      left: 0;
+    }
+    #extraSpace .ExtraPhoto-text{
+      font-size: 50px;
+      top: 120px;
+      padding-left: 80px;
+      text-align: left;
+    }
+    #extraSpace .newline{
+      display: none;
+    }
+    #extraSpace .three{
+      margin-bottom: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width:  370px){
+    #extraSpace .three-subtitle{
+      padding: 20px 0 00px 0;
+    }
+    #extraSpace .three {
+      margin-bottom: 0;
+    }
+  }

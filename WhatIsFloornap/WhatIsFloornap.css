@@ -1,0 +1,80 @@
+.what-is-floornap {
+  padding: 100px 0;
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+
+.what-is-floornap .title, .what-is-floornap .subtitle{
+  text-align: center;
+  padding: 10px;
+}
+
+.what-is-floornap .title{
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.what-is-floornap .subtitle {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.what-is-floornap .cards-container{
+  margin-top: 20px;
+}
+
+.what-is-floornap .card{
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  text-align: center;
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.15);
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+.what-is-floornap .card .card-title{
+  padding: 20px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.what-is-floornap .image{
+  width:100%;
+  margin: auto;
+}
+
+.what-is-floornap .image img{
+  width:100%;
+}
+
+@media only screen and (max-width:  1200px){
+  .what-is-floornap {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width:  770px){
+  .what-is-floornap {
+    margin-top: 250px;
+  }
+  .what-is-floornap .card{
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (max-width:  600px){
+  .what-is-floornap {
+    margin-top: 200px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width:  350px){
+  .what-is-floornap {
+    padding-bottom: 0px;
+  }
+}

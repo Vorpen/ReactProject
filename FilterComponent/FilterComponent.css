@@ -1,0 +1,593 @@
+.main-nav-bar .header-container .navbar-logo {
+  width: 260px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.main-nav-bar .header-container nav {
+  font-size: 20px;
+}
+
+.main-nav-bar .header-container nav .navbar-link {
+  padding: 30px;
+}
+
+.hello{
+    font-size:60px;
+    color:white;
+    font-family:'helvetica';
+    text-align:Center;
+    src: url('../../fonts/helvetica.otf') format("opentype");
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    right: 50%;
+    transform: translate(0, -50%);
+    text-shadow: -2px 2px #000;
+}
+
+.form{
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 50px);
+  transform: translate(-10%, -50%);
+  height: 500px;
+  width: 40%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid #D5ECF3;
+}
+
+.filterForm-wrapper {
+  top: 0;
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  position: relative;
+  background: url(/images/main.jpg) no-repeat;
+  text-align: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-y: top;
+}
+
+
+.filterForm-wrapper .filter-form-container .DayPickerInput-Overlay, .DayPicker, .DayPicker-Month {
+  width: 100%;
+}
+
+/* filter form */
+
+.form form{
+  position: relative;
+  height: 100%;
+}
+
+.form .search-icon {
+  margin-right: 10px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.submitButton {
+  background-color: #337AB7;
+  border-radius: 8px;
+  width: 25%;
+  min-width: 100px;
+  max-width: 200px;
+  height: 50px;
+  padding: 6px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-transform: uppercase;
+}
+.submitButton:hover {
+  box-shadow: 0 0 10px #337AB7;
+}
+
+.submitButton p{
+  margin-left: 0;
+  font-size: 20px;
+}
+
+.form-header{
+  margin-bottom: 20px;
+}
+
+.form-header-naslov{
+  font-size: 32px;
+}
+
+.form-header .form-header-text{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.form-header .form-header-text .blue{
+  color: #CC4D0A;
+  font-weight: 500;
+}
+
+.inputs{
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+  margin: 0 -20px 0 -20px;
+}
+
+.input-wrapper {
+  padding: 20px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+  min-height: 34px;
+}
+
+.inputs .input-wrapper:first-child > div > div:first-child {
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+}
+
+.inputs .number_of_people input{
+  width: 46px;
+  text-align: center;
+  border: 0;
+  font-size: 30px;
+  font-weight: 500;
+  display: inline;
+  margin: -4px 15px 0 15px;
+  height: 40px;
+  line-height: 40px;
+  transform: translate(0px, 5px);
+  display: none;
+}
+
+.inputs .number_of_people .current_number{
+  width: 46px;
+  text-align: center;
+  border: 0;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0;
+  display: inline-block;
+  margin: -4px 15px 0 15px;
+  height: 39px;
+  line-height: 39px;
+  transform: translate(0px, 5px);
+  -moz-transform: translateY(-5px)
+}
+
+.inputs .number_of_people label{
+  display: block;
+}
+
+.inputs .minus-plus-icon{
+  display: inline;
+}
+
+.inputs label{
+  font-weight: 500;
+}
+
+.inputs .number_of_people_input {
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+  padding: 2px 10px 8px 14px;
+}
+
+.inputs .minus-plus-icon.person-icon{
+  height: 34px;
+  margin-right: 50px;
+}
+
+.inputs .minus-plus-icon.person-icon img {
+  height: 30px;
+  vertical-align: bottom;
+}
+
+.inputs .minus-plus-icon.minus-plus{
+  border: 1px solid grey;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+
+.inputs .error {
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: #ffc0cb;
+  margin-top: 2px;
+  text-align: center;
+  padding: 3px;
+}
+
+.inputs .DayPickerInput {
+  display: block;
+}
+
+.inputs .invisible{
+  visibility: hidden;
+}
+
+
+@media only screen and (max-width: 3000px) {
+  .filterForm-wrapper {
+    height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 2200px) {
+  .form-header {
+    margin-bottom: 0;
+  }
+  .filterForm-wrapper {
+    height: 1000px;
+  }
+  .hello {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .hello {
+    font-size: 50px;
+  }
+  .main-nav-bar .header-container .navbar-logo {
+    width: 200px;
+    height: 68px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .filterForm-wrapper {
+    height: 800px;
+  }
+  .hello {
+    font-size: 48px;
+  }
+  .main-nav-bar .header-container .navbar-logo {
+    width: 180px;
+    height: 60px;
+  }
+  .main-nav-bar .header-container nav {
+    font-size: 20px;
+  }
+  .main-nav-bar .header-container nav .navbar-link {
+    padding: 26px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .submitButton{
+    height: 50px;
+  }
+  .submitButton p{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .filterForm-wrapper {
+    height: 800px;
+  }
+  .hello {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .inputs .minus-plus-icon.person-icon {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .filterForm-wrapper {
+    height: 600px;
+  }
+  .form{
+    height: 400px;
+  }
+  .inputs {
+    margin: 0 -10px 0 -10px;
+  }
+  .form-header .form-header-naslov{
+    font-size: 28px;
+  }
+  .form-header .form-header-text{
+    font-size: 20px;
+  }
+  .input-wrapper input {
+    padding: 10px;
+  }
+  .submitButton p {
+    font-size: 18px;
+  }
+  .submitButton p img{
+    width: 18px;
+  }
+  .hello {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .filterForm-wrapper {
+    height: 500px;
+  }
+  .hello {
+    font-size: 36px;
+  }
+  .main-nav-bar .header-container .navbar-logo {
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .main-nav-bar .header-container nav {
+    font-size: 16px;
+  }
+  .main-nav-bar .header-container nav .navbar-link {
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .form{
+    padding: 20px;
+  }
+  .form-header{
+    margin-bottom: 20px;
+  }
+  .input-wrapper {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .form-header{
+    margin-bottom: 10px;
+  }
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .inputs .number_of_people_input {
+    padding: 2px 2px 8px 8px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .form{
+    padding: 10px;
+    height: 380px;
+  }
+  .form-header{
+    margin-bottom: 10px;
+  }
+  .form-header-naslov{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hello{
+    font-size:35px;
+  }
+  .inputs .number_of_people .current_number{
+    margin: -4px 5px 0 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hello{
+    font-size:30px;
+  }
+  .input-wrapper {
+    padding: 8px;
+  }
+  .submitButton {
+    height: 44px;
+  }
+  .form{
+    height: 355px;
+  }
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .filterForm-wrapper {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .inputs .number_of_people .current_number{
+    margin: -4px 2px 0 2px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .form-header-naslov{
+    font-size: 26px;
+  }
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 5px;
+  }
+  .form .form-header-text{
+    font-size: 16px;
+  }
+  .inputs .number_of_people .current_number{
+    margin: -4px 0px 0 0px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .form-header .form-header-naslov {
+    font-size: 24px;
+  }
+  .form-header .form-header-text {
+    font-size: 22px;
+  }
+  .form{
+    height: 330px;
+  }
+  .inputs .minus-plus-icon.minus-plus{
+    padding: 3px 3px;
+  }
+  .inputs .number_of_people .current_number {
+    width: 36px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .filterForm-wrapper {
+    position: unset;
+  }
+  .hello {
+    transform: none;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    position: unset;
+  }
+  .form{
+    height: 380px;
+    position: unset;
+    width: 90%;
+    margin: 0 auto;
+    transform: none;
+    -webkit-box-shadow: 0 0 18px grey;
+    box-shadow: 0 0 18px grey;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .form-header-naslov{
+    font-size: 30px;
+  }
+
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 50px;
+  }
+
+  .inputs .number_of_people_input {
+    padding: 0px 6px 8px 6px;
+  }
+
+  .inputs .minus-plus-icon.minus-plus{
+    padding: 5px 5px;
+  }
+
+  .inputs .number_of_people .current_number {
+    width: 40px;
+    margin: -4px 20px 0 20px;
+  }
+
+  .form {
+    padding: 20px;
+  }
+
+  .input-wrapper {
+    padding: 20px;
+  }
+
+  .form-header .form-header-text{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .form {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .inputs .number_of_people .current_number {
+    width: 40px;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    padding: 10px;
+    height: 330px;
+  }
+  .input-wrapper {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form-header .form-header-naslov {
+    font-size: 22px;
+  }
+  .form-header .form-header-text {
+    font-size: 16px;
+  }
+  .inputs .minus-plus-icon.minus-plus {
+    padding: 5px;
+  }
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .input-wrapper{
+    padding: 8px;
+  }
+  .form {
+    padding: 5px;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .inputs .number_of_people .current_number {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .inputs .minus-plus-icon.person-icon{
+    margin-right: 5px;
+  }
+  .inputs .number_of_people_input {
+    padding: 0px 2px 8px 4px;
+  }
+}

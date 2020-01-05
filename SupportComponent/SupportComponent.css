@@ -1,0 +1,228 @@
+
+#support.container {
+
+  width: 100%;
+  padding: 0;
+}
+
+#redak {
+ width: 33.33333%;
+ padding-right: 30px;
+ text-align: center;
+}
+
+ /* #support.container .redak:last-child {
+  padding-right: 0;
+ } */
+
+ #support #redak .text-container{
+  height: 160px;
+  padding: 16px 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+ }
+
+#redak .img-responsive.center-block {
+  width: 100%;
+}
+
+#redak p {
+
+    font-size:18px;
+    font-weight: 300;
+}
+
+#reed .reed-naslov {
+  font-size: 26px;
+  font-weight: 500;
+  padding: 16px 0;
+  text-align: center;
+}
+
+#reed .reed-podnaslov {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  font-weight: 300;
+}
+
+#redak h3 {
+
+    font-size:18px;
+    padding: 5px 0 10px 0;
+
+}
+
+@media only screen and (max-width: 1600px) {
+  #support.container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #redak h3 {
+    padding: 0;
+  }
+  #redak p {
+    font-size:16px;
+  }
+  #support #redak .text-container{
+    height: 140px;
+   }
+   #redak {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #support #redak .text-container{
+    height: 130px;
+   }
+}
+
+@media only screen and (max-width: 1100px) {
+   #redak p {
+    font-size:14px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #support #redak .text-container{
+    height: 140px;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+  #support #redak .text-container{
+    height: 150px;
+   }
+}
+
+@media only screen and (max-width: 770px) {
+  #support .container {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+
+
+    #reed{
+
+        width:100%;
+    }
+    #SupportContainer {
+
+        width:100%;
+    }
+
+    #redak{
+
+        width:100%;
+        margin-bottom:50px;
+        padding-right: 0;
+    }
+
+
+    #redak p {
+
+        font-size:20px;
+    }
+
+
+
+    #redak h3 {
+
+        font-size:28px;
+        width:100%;
+
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 566px) {
+
+    #redak{
+
+        width:100%;
+        margin-bottom:50px;
+
+    }
+
+
+    #redak p {
+
+        font-size:20px;
+    }
+
+
+
+    #redak h3 {
+
+        font-size:27px;
+        width:100%;
+
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 440px) {
+  #support #redak .text-container{
+    height: 160px;
+   }
+}
+
+@media only screen and (max-width: 420px) {
+  #support #redak .text-container{
+    height: 170px;
+   }
+}
+
+@media only screen and (max-width: 380px) {
+
+
+
+
+
+
+    #support{
+
+
+        width:100%;
+    }
+    #SupportContainer {
+
+        width:100%;
+    }
+
+    #redak{
+
+        width:100%;
+        margin-bottom:50px;
+
+
+    }
+
+
+    #redak p {
+
+        font-size:19px;
+    }
+
+
+
+    #redak h3 {
+
+        font-size:25px;
+        width:100%;
+
+    }
+
+}

@@ -1,0 +1,78 @@
+#prefooter{
+
+    width:100%;
+    height:250px;
+    padding-top:50px;
+    margin-top: 50px;
+    text-align:center;
+
+}
+
+
+.joinus h3{
+
+    font-family:'helvetica';
+    src: url('../../fonts/helvetica.otf') format("opentype");
+    font-size:36px;
+    width:40%;
+    margin: 0 auto;
+}
+
+  h3.prefooterh3{
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  p.prefooterh3{
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+.joinus p {
+
+    font-family:'helvetica';
+    src: url('../../fonts/helvetica.otf') format("opentype");
+    font-size:18px;
+    width:600px;
+    font-weight: 100;
+    margin: 0 auto;
+
+}
+
+.joinusbutton p{
+
+    width:300px;
+    margin: 0 auto;
+    font-size:18px;
+    font-family:'helvetica';
+    src: url('../../fonts/helvetica.otf') format("opentype");
+}
+
+.joinusbutton{
+    margin-top:30px;
+    background-color: #337ab7;
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    width:200px;
+    height:50px;
+    padding:6px;
+    text-align:center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.joinusbutton:hover {
+  box-shadow: 0 0 10px #337AB7;
+}
+
+@media only screen and (max-width: 400px) {
+
+  #prefooter {
+    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+  }
+  .joinusbutton{
+    margin-top: 15px;
+  }
+}

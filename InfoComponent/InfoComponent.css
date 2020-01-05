@@ -1,0 +1,83 @@
+.info-component{
+  width: 100%;
+  padding: 0;
+}
+
+.info-component .row {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 0 1fr 1fr 0;
+  -ms-grid-columns: 1fr 1fr;
+  display: -ms-inline-grid;
+  margin: 0;
+}
+
+.info-component .row img {
+  width: 100%;
+}
+
+.info-text {
+  padding-right: 10px;
+}
+
+.naslov{
+
+  font-family:'helvetica';
+  src: url('../../fonts/helvetica.otf') format("opentype");
+  padding-bottom: 30px;
+  font-size:30px;
+}
+
+p.text{
+font-family:'helvetica';
+src: url('../../fonts/helvetica.otf') format("opentype");
+font-size:24px;
+font-weight: 100;
+max-width: 400px;
+}
+
+@media only screen and (max-width:  1600px){
+
+  p.text{
+
+    font-size:18px;
+    }
+
+    .naslov{
+      font-size:22px;
+    }
+    .info-component .row  {
+      width: 90%;
+      margin: 0 5%;
+    }
+
+}
+
+@media only screen and (max-width:  1280px){
+
+  p.text{
+
+    font-size:18px;
+    }
+
+    .naslov{
+      font-size:22px;
+    }
+
+
+}
+
+@media only screen and (max-width:  770px){
+  .info-component {
+    margin-top: 50px;
+  }
+  .info-component .row {
+    display: block;
+  }
+  .joinusbutton{
+    margin-bottom: 20px;
+  }
+  p.text{
+    max-width: 100%;
+    }
+}
